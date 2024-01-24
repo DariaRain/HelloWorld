@@ -17,31 +17,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vGy-nT-aGQ">
-                                <rect key="frame" x="20" y="71" width="388" height="391"/>
+                                <rect key="frame" x="20" y="71" width="388" height="378"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="391" id="p39-nZ-T2q"/>
-                                    <constraint firstAttribute="width" constant="388" id="uhP-Jb-QLa"/>
-                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4P4-jC-9cv">
-                                <rect key="frame" x="20" y="470" width="388" height="422"/>
+                                <rect key="frame" x="20" y="514" width="388" height="378"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="388" id="9P4-uT-Sf1"/>
-                                    <constraint firstAttribute="height" constant="422" id="xCq-Yo-RGL"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="vGy-nT-aGQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="SHp-c3-n58"/>
-                            <constraint firstItem="4P4-jC-9cv" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="XzC-0s-Byq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4P4-jC-9cv" secondAttribute="trailing" constant="20" id="Ygc-og-f3u"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vGy-nT-aGQ" secondAttribute="trailing" constant="20" id="gzX-9y-Uxo"/>
-                            <constraint firstItem="4P4-jC-9cv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jQe-m1-ic3"/>
-                            <constraint firstItem="vGy-nT-aGQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="27" id="mGI-kD-BbU"/>
+                            <constraint firstItem="4P4-jC-9cv" firstAttribute="width" secondItem="vGy-nT-aGQ" secondAttribute="width" id="7fC-xT-QSa"/>
+                            <constraint firstItem="4P4-jC-9cv" firstAttribute="top" secondItem="vGy-nT-aGQ" secondAttribute="bottom" constant="65" id="Hmk-a4-jtC"/>
+                            <constraint firstItem="4P4-jC-9cv" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ICv-Ei-xQx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4P4-jC-9cv" secondAttribute="trailing" constant="20" id="L5x-wY-gdd"/>
+                            <constraint firstItem="vGy-nT-aGQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ME6-bH-ZCC"/>
+                            <constraint firstItem="4P4-jC-9cv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="afK-0P-1GN"/>
+                            <constraint firstItem="4P4-jC-9cv" firstAttribute="height" secondItem="vGy-nT-aGQ" secondAttribute="height" id="kmz-dk-L6D"/>
+                            <constraint firstItem="vGy-nT-aGQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="27" id="uBi-9O-arz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vGy-nT-aGQ" secondAttribute="trailing" constant="20" id="ymg-fn-jS4"/>
                         </constraints>
                     </view>
                 </viewController>
